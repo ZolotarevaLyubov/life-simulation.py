@@ -16,7 +16,6 @@ except File_not_found_error:
     print("File '{input_matrix}'not found")        
         
 
-# sys.argv
 
 c_count = ctypes.CDLL('./count.so')
 
