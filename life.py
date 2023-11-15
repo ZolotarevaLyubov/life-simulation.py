@@ -8,6 +8,7 @@ if len(sys.argv) < 3:
 input_matrix = sys.argv[1]
 num_of_changes = int(sys.argv[2])
 
+
 try:
     with open (input_matrix, 'r') as file:
         map = file.read()
