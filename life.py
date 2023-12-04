@@ -1,6 +1,7 @@
 import ctypes
 import sys
 
+
 if len(sys.argv) < 3:
     print("Usage: python_file matrix.txt num_of_chages")
     sys.exit(1)
