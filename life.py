@@ -110,6 +110,7 @@ def read_matrix(file_matrix):
             matrix_py.append(row)
     return matrix_py                       
 
+
 file_path = "matrix.txt"
 matrix_py = read_matrix(file_path)
 rows = len(matrix_py)
