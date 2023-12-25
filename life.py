@@ -90,7 +90,6 @@ def transform(map):
             c_array[i*cols+j] = map[i][j] 
     return c_array        
 
-
 def read_matrix(file_matrix):        
     matrix_py = []
     with open(file_matrix, 'r') as file:
@@ -109,7 +108,6 @@ def read_matrix(file_matrix):
             row = [int(x) for x in after_line]
             matrix_py.append(row)
     return matrix_py                       
-
 
 file_path = "matrix.txt"
 matrix_py = read_matrix(file_path)
