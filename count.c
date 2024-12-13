@@ -1,5 +1,4 @@
 
- 
 
 int exam (int map[], int y, int x, int WIDTH, int HEIGHT)
 {
